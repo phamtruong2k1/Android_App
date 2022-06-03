@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zcongdong.CongDongActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#ECE3A8"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.78"
+        android:weightSum="10"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/viewusername"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/viewuserimage"
+            app:cardCornerRadius="30dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/defaultprofile"
+                android:id="@+id/viewuserimageinimageview"
+                android:scaleType="centerCrop">
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/name_user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7.3"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:textColor="#5A0404"
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/congdong_chat"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/icons8_chat_64" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        android:background="@color/black"
+        />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_congdong"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navi_congdong"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.7"
+        android:background="#F86806"
+        app:itemIconTint="@color/navi_main"
+        app:itemTextColor="@color/navi_main"
+        app:menu="@menu/menu_home_group" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "983048893645",
+    "project_id": "hauihitnote",
+    "storage_bucket": "hauihitnote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983048893645:android:cfec85a91b7406e3d12584",
+        "android_client_info": {
+          "package_name": "com.codernon2k1.note"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983048893645-iku376k8u0qgbv9i1pt3hk5trqfc8aje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codernon2k1.note",
+            "certificate_hash": "1484e708c984f96113a0ba18a1298507b6fac016"
+          }
+        },
+        {
+          "client_id": "983048893645-0rssojnumjtlelc4gfpfe36vpaqpet5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr1TjC11Qrkds_vEjVF83xA4YNBL1HDAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983048893645-0rssojnumjtlelc4gfpfe36vpaqpet5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

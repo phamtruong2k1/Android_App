@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Note</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="do_c" translatable="false">°</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_ban_be" translatable="false">BanBeActivity</string>
+
+    <string name="title_activity_bai_viet" translatable="false">BaiVietActivity</string>
+    <string name="title_activity_sign_up" translatable="false">SignUpActivity</string>
+    <string name="title_activity_ho_so" translatable="false">HoSoActivity</string>
+    <string name="title_activity_chon_anh_avt" translatable="false">ChonAnhAvtActivity</string>
+
+
+    //acctivity_home
+    <string name="home_thoikhoabieu">Thời gian biểu</string>
+    <string name="home_chitieu">Chi tiêu</string>
+    <string name="home_tienich">Tiện ich</string>
+
+    <string name="home_congviec">Công việc</string>
+    <string name="home_sukien">Sự kiện</string>
+    <string name="home_chitieuthang">Chi tiêu tháng:</string>
+    <string name="home_thu">Thu nhập:</string>
+
+
+    <string name="home_congdong">Cộng đồng</string>
+    <string name="home_ghichu">Ghi chú</string>
+    <string name="home_dialog_sua_name_edit">Nhập tên người dùng</string>
+    <string name="home_dialog_sua_name_title">Đặt tên người dùng</string>
+    <string name="home_dialog_sua_name_button">Đăt</string>
+    <string name="home_dialog_caidat_title">Cài Đặt</string>
+    <string name="home_dialog_caidat_ngonngu">Ngôn ngữ</string>
+    <string name="home_dialog_caidat_pass">Khóa ứng dụng</string>
+    <string name="home_dialog_caidat_hotro">Hộ trợ</string>
+    <string name="title_activity_xem_mon_an" translatable="false">XemMonAnActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="title_activity_mon_an" translatable="false">MonAnActivity</string>
+
+</resources>

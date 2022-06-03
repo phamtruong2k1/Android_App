@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home" android:title="Trang chủ" android:icon="@mipmap/icons8_home_50" />
+<!--    <item android:id="@+id/menu_friend" android:title="Bạn bè" android:icon="@mipmap/icons8_friends_96"/>-->
+    <item android:id="@+id/menu_tienich" android:title="Tiện ích" android:icon="@mipmap/icons8_light_96"/>
+<!--    <item android:id="@+id/menu_profile" android:title="Người dùng" android:icon="@mipmap/icons8_user_96"/>-->
+
+</menu>

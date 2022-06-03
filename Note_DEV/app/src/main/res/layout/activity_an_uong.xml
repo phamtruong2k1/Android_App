@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".zhome.tienich.anuong.AnUongActivity"
+    android:background="@color/mau_nen"
+    >
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navi_an_uong"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.7"
+        android:background="#E67F24"
+        app:itemIconTint="@color/navi_main"
+        app:itemTextColor="@color/navi_main"
+        app:menu="@menu/menu_an_uong" />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_an_uong"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.3"
+        android:layout_above="@+id/bottom_navi_main"
+        />
+
+
+
+
+</LinearLayout>

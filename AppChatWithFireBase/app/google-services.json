@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "762769677202",
+    "project_id": "chatwithfirebase-bbmd",
+    "storage_bucket": "chatwithfirebase-bbmd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762769677202:android:cba5c6718ca31d73b6ff4b",
+        "android_client_info": {
+          "package_name": "com.example.phamtruong.haui.chatwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762769677202-144iv9h5pu17jbfqtfpm63akg80c83ki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phamtruong.haui.chatwithfirebase",
+            "certificate_hash": "1484e708c984f96113a0ba18a1298507b6fac016"
+          }
+        },
+        {
+          "client_id": "762769677202-at9928db6r2h7p8inc39c996j9e7952a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1koRynM7XRrZLn00SQguA3tmyVAOp_Tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762769677202-at9928db6r2h7p8inc39c996j9e7952a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

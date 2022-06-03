@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Note</string>
+    <string name="hello_blank_fragment" translatable="false">ok la</string>
+    <string name="home_dialog_caidat_title">Setting</string>
+    <string name="home_congdong">Group</string>
+    <string name="home_ghichu">Note</string>
+    <string name="home_dialog_sua_name_edit">Enter username</string>
+    <string name="home_dialog_sua_name_title">Enter username</string>
+    <string name="home_dialog_sua_name_button">Confirm</string>
+    <string name="home_dialog_caidat_ngonngu">Language</string>
+    <string name="home_dialog_caidat_pass">App Lock</string>
+    <string name="home_dialog_caidat_hotro">Help</string>
+    <string name="home_tienich">Convenience</string>
+    <string name="home_chitieu">Spending</string>
+    <string name="home_thoikhoabieu">Timetable</string>
+    <string name="home_congviec">Work</string>
+    <string name="home_sukien">Event</string>
+    <string name="home_chitieuthang">Monthly spending:</string>
+    <string name="home_thu">Collect</string>
+</resources>

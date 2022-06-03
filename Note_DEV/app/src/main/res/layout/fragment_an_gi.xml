@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zhome.tienich.anuong.angi.AnGiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        >
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/an_gi_kq"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Kết quả"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/khung_angi_ketqua"
+            />
+        <EditText
+            android:id="@+id/an_gi_nhap"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:gravity="left|top"
+            android:hint="Nhập món ăn"
+            android:background="@drawable/khung_angi_ketqua"
+            />
+
+        <TextView
+            android:id="@+id/an_gi_lay_off"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Lấy các món từ 'món ăn'"
+            android:textColor="#0946E1"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            />
+        <Button
+            android:id="@+id/an_gi_random"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Random"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/random_bt"
+            />
+
+        <CheckBox
+            android:id="@+id/lay_xong_xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:layout_marginHorizontal="20dp"
+            android:text="Lấy kết quả xong xóa"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

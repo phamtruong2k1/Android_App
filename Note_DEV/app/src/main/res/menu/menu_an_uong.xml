@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_monan" android:title="Món ăn"  android:icon="@mipmap/icons8_rice_bowl_48"/>
+    <item android:id="@+id/menu_angi" android:title="Ăn gì?" android:icon="@mipmap/icons8_ask_question_48"/>
+    <item android:id="@+id/menu_tinhtoan" android:title="Tính toán" android:icon="@mipmap/icons8_math_48"/>
+</menu>

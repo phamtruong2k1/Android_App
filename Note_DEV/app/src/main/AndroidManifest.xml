@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codernon2k1.note">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_note"
+        android:label="I.'s Note"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".zcongdong.tienich.truyen.XemTaiSachActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zcongdong.tienich.monan.MonAnActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.tienich.anuong.monan.XemMonAnActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.chat.SDTActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.chat.otpAuthentication"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.chat.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.chat.setProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.chat.specificchat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.chat.UpdateProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zcongdong.singin.DangNhapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zcongdong.chao.ChaoCongDongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.zchitieu.thunhap.ShowThuNhapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.zchitieu.thunhap.NhapThuNhapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.zchitieu.chitieu.ShowChiTieuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.zchitieu.chitieu.NhapChiTieuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.tienich.giaitri.GameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.tienich.sach.XemSachActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zcongdong.CongDongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zcongdong.tienich.monan.TaiMonAnActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zcongdong.tienich.truyen.TaiTruyenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.tienich.giaitri.caro.CaroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.tienich.giaitri.sudoku.SudokuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.tienich.TienIchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.tienich.sach.SachActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.zghichu.GhiChuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.tienich.anuong.AnUongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.zchitieu.activity.ChiTieuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.zthoikhoabieu.acti.ThoiKhoaBieuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zhome.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zzchaoapp.MainActivity2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

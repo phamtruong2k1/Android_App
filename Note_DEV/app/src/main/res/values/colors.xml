@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="icon_tab">#3F51B5</color>
+    <color name="cam_hit">#EA6208</color>
+    <color name="sudoku_show">#0958F4</color>
+    <color name="sudoku_red">#79F40707</color>
+    <color name="sudoku_click">#85E3AC08</color>
+
+
+    <color name="mau_nen">#ECE3A8</color>
+    <color name="tieu_red">#85F62104</color>
+    <color name="tieu_xanh">#8506F30B</color>
+
+    <color name="lich_sukien">#ED6F6F</color>
+    <color name="lich_red">#D60B0B</color>
+    <color name="lich_honnay">#CC9D0E</color>
+    <color name="hom_nay_sukien">#030568</color>
+
+    <color name="thu_nay">#E6AC1E</color>
+
+
+    <color name="background_xanh_tim">#FBA703</color>
+</resources>

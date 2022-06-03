@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="@drawable/vien_dialog_ghichu"
+    >
+    <TextView
+        android:text="Thêm sự kiện"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_margin="1dp"
+        android:background="#FB921C"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:text="Tên sự kiện"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+        <EditText
+            android:paddingLeft="8dp"
+            android:id="@+id/name"
+            android:hint="Tên sự kiện"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:text="Thời gian"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+        <TextView
+            android:id="@+id/ngay"
+            android:gravity="center"
+            android:text="21/21/2121"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:text="Giờ"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+        <TextView
+            android:id="@+id/gio"
+            android:gravity="center"
+            android:text="21/21/2121"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:text="Báo thức"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+        <TextView
+            android:id="@+id/baothuc"
+            android:gravity="center"
+            android:text="21/21/2121"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            />
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/baothuc_khong"
+        android:text="Có báo thức không"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:text="Ghi chú"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+        <EditText
+            android:id="@+id/ghichu"
+            android:hint="Tên sự kiện"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/huy"
+            android:text="Hủy"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:background="#D6D1D1"
+            android:layout_margin="7dp"
+            />
+        <Button
+            android:id="@+id/them"
+            android:text="Thêm"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:background="#EC2C2C"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="7dp"
+            />
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

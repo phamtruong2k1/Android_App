@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Note</string>
+    <string name="hello_blank_fragment" translatable="false">ok laa</string>
+    <string name="home_dialog_caidat_title">Cài đặt</string>
+    <string name="home_congdong">Cộng đồng</string>
+    <string name="home_ghichu">Ghi chú</string>
+    <string name="home_dialog_sua_name_edit">Nhập tên người dùng</string>
+    <string name="home_dialog_sua_name_title">Đặt tên người dùng</string>
+    <string name="home_dialog_sua_name_button">Đặt</string>
+    <string name="home_dialog_caidat_ngonngu">Ngôn ngữ</string>
+    <string name="home_dialog_caidat_pass">Khóa ứng dụng</string>
+    <string name="home_dialog_caidat_hotro">Hỗ trợ</string>
+    <string name="home_tienich">Tiện ich</string>
+    <string name="home_chitieu">Chi tiêu</string>
+    <string name="home_thoikhoabieu">Thời gian biểu</string>
+    <string name="home_congviec">Công việc</string>
+    <string name="home_sukien">Sự kiện</string>
+    <string name="home_chitieuthang">Chi tiêu tháng:</string>
+    <string name="home_thu">Thu</string>
+</resources>

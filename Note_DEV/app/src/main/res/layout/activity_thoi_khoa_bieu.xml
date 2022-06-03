@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".zhome.zthoikhoabieu.acti.ThoiKhoaBieuActivity"
+    android:background="#ECE3A8"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navi_tkb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.7"
+        android:background="#F86806"
+        app:itemIconTint="@color/navi_main"
+        app:itemTextColor="@color/navi_main"
+        app:menu="@menu/menu_thoi_gian_bieu" />
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_tkb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.3"
+        />
+
+
+
+
+
+</LinearLayout>

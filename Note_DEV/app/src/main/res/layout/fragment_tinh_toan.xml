@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zhome.tienich.anuong.tinhtoan.TinhToanFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        >
+        <TextView
+            android:text="Chỉ số BMI"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/cannang"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/black"
+            android:hint="Nhập cân nặng"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/chieucao"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/black"
+            android:hint="Nhập chiều cao (cen-ti-mét)"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/tinh"
+            android:layout_marginHorizontal="50dp"
+            android:textColor="@color/black"
+            android:text="Kết quả"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/random_bt"
+            />
+
+        <TextView
+            android:id="@+id/chiso"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_marginHorizontal="15dp"
+            android:id="@+id/khuyen"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+</FrameLayout>

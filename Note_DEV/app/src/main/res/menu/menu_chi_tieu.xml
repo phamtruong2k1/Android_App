@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_chi_tieu" android:title="Chi tiêu" android:icon="@mipmap/icons8_card_payment_100" />
+    <item android:id="@+id/menu_thu_nhap" android:title="Thu nhập" android:icon="@mipmap/icons8_receive_euro_80"/>
+    <item android:id="@+id/menu_thong_ke" android:title="Thống kê" android:icon="@mipmap/icons8_math_48"/>
+</menu>
